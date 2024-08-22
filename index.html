@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Seu Nome] - Currículo Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="profile">
+                <img src="[Sua Foto URL]" alt="[Seu Nome]" class="profile-img">
+                <div class="profile-info">
+                    <h1>[Seu Nome Completo]</h1>
+                    <p>[Seu Cargo ou Profissão]</p>
+                    <ul class="contact-info">
+                        <li>Email: <a href="mailto:[Seu E-mail]">[Seu E-mail]</a></li>
+                        <li>Telefone: [Seu Telefone]</li>
+                        <li><a href="[LinkedIn URL]" target="_blank">LinkedIn</a></li>
+                        <li><a href="[Portfólio URL]" target="_blank">Portfólio</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="profile">
+            <div class="container">
+                <h2>Perfil Profissional</h2>
+                <p>[Seu resumo profissional detalhado, destacando suas principais competências, experiência e objetivos de carreira]</p>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container">
+                <h2>Experiência Profissional</h2>
+                <div class="experience-item">
+                    <h3>[Título do Cargo]</h3>
+                    <p><strong>[Nome da Empresa]</strong> — [Cidade, Estado]</p>
+                    <p>[Data de Início] – [Data de Término]</p>
+                    <ul>
+                        <li>[Descrição de responsabilidade ou conquista]</li>
+                        <li>[Descrição de responsabilidade ou conquista]</li>
+                    </ul>
+                </div>
+                <!-- Adicione mais blocos de experiência profissional conforme necessário -->
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <h2>Educação</h2>
+                <div class="education-item">
+                    <h3>[Nome do Curso]</h3>
+                    <p><strong>[Nome da Instituição]</strong> — [Cidade, Estado]</p>
+                    <p>[Data de Início] – [Data de Conclusão]</p>
+                    <p>[Destaques acadêmicos, se aplicável]</p>
+                </div>
+                <!-- Adicione mais blocos de educação conforme necessário -->
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2>Habilidades</h2>
+                <div class="skills-list">
+                    <div class="skill">
+                        <h4>[Habilidade Técnica 1]</h4>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: [Percentual]%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h4>[Habilidade Técnica 2]</h4>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: [Percentual]%"></div>
+                        </div>
+                    </div>
+                    <!-- Adicione mais habilidades conforme necessário -->
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <div class="container">
+                <h2>Certificações e Cursos</h2>
+                <div class="certification-item">
+                    <p><strong>[Nome da Certificação ou Curso]</strong> — [Nome da Instituição ou Plataforma], [Data de Conclusão]</p>
+                </div>
+                <!-- Adicione mais certificações conforme necessário -->
+            </div>
+        </section>
+
+        <section id="languages">
+            <div class="container">
+                <h2>Idiomas</h2>
+                <ul>
+                    <li>[Idioma] — [Nível]</li>
+                    <li>[Idioma] — [Nível]</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>Projetos Relevantes</h2>
+                <div class="project-item">
+                    <h3>[Nome do Projeto]</h3>
+                    <p>[Descrição breve do projeto, suas responsabilidades e resultados alcançados]</p>
+                </div>
+                <!-- Adicione mais projetos conforme necessário -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; [Ano] [Seu Nome Completo]. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.profile-info {
+    text-align: left;
+}
+
+.profile-info h1 {
+    margin: 0;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.contact-info li {
+    margin: 5px 0;
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px 0;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.experience-item, .education-item, .certification-item, .project-item {
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.skill-bar {
+    background: #ddd;
+    border-radius: 5px;
+    height: 10px;
+    width: 100%;
+}
+
+.skill-level {
+    background: #1e90ff;
+    height: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
